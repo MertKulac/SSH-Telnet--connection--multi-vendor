@@ -1,13 +1,3 @@
-import sys
-import time
-import paramiko  ###SSH LIBRARY###
-from paramiko_expect import \
-    SSHClientInteraction  ###TAKES AN ACTION ACCORDING TO INPUT CODE AND PROVIDES STOP THE CODE (expect)###
-import telnetlib
-from queue import Queue
-import threading
-from termcolor import colored
-
 line_break = "\r\n"
 line_end = "\r"
 vrp_cli_length = "screen-length 0 tempo"
