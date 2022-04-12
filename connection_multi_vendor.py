@@ -8,7 +8,7 @@ vrp_cli_length = "screen-length 0 tempo"
 
 def connectionkapici(ip):
     kapici_prompt = '.*\$ '
-    bash_prompt = "[tc137553@tcellsconn3 ~]$ "
+    bash_prompt = "[admin@admin ~]$ "
     telnet_prompt = ".*:"
     configure_prompt = '.*)#'
     user_prompt = '.*sername:'
